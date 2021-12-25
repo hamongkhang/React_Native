@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "listview_flatlist",
+    "slug": "listview_flatlist",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "listview_flatlist"
+}
