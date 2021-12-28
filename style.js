@@ -4,75 +4,172 @@ let screenHeight=Dimensions.get('window').height;
 const styles=StyleSheet.create({
     scrollView:{
          marginTop:20,
-         paddingRight:30,
-         paddingLeft:30,
-    },
-    image:{
-        width:343, 
-        height: 194,
-        borderRadius:7,
-    },
-    imageBackground:{
-         width:349, 
-         height: 200,
-        borderRadius:10,
-        borderColor:"grey",
-        borderBottomWidth:3,
-        borderTopWidth:3,
-        borderLeftWidth:3,
-        borderRightWidth:3,
-    },
-    title:{
-        fontSize:20,
-        color:"black",
-        marginTop:10,
     },
     header:{
         justifyContent:'center',
         alignItems:'center',
+        height:80,
+        borderBottomWidth:1,
     },
-    hr:{
-     borderBottomColor:'grey',
-     borderBottomWidth:2,
-     width:420,
-     marginBottom:30,
+    body:{
+        paddingTop:30,
+        paddingLeft:30,
+        paddingRight:30,
+        backgroundColor:"ivory",
     },
-    postTitle:{
-        fontSize:20,
-        alignSelf:'flex-start',
+    listImage:{
+         flexDirection:'row',
+         marginBottom:30,
+    },
+    image1:{
+        width:30,
+        height:30,
+
+    },
+    image2:{
+        width:30,
+        height:30,
+        position: 'absolute'
+    },
+    image3:{
+        width:21,
+        height:21,
+        marginTop:4,
+        position: 'absolute',
+        marginLeft:325,
+    },
+    image4:{
+        width:30,
+        height:30,
+        marginLeft:27,
+    },
+    
+    text:{
+        justifyContent:'center',
+        alignItems:"center",
+        marginLeft:47,
+    },
+    text1:{
+fontSize:16,
+    },
+    text2:{
+color:'grey'            
+},
+    imageBackground:{
+         width:349, 
+         height: 'auto',
+        borderRadius:6,
+        borderColor:"grey",
+        borderBottomWidth:1,
+        borderTopWidth:1,
+        borderLeftWidth:1,
+        borderRightWidth:1,
+        backgroundColor:'white',
         marginBottom:20,
     },
-    itemTitle:{
-        marginTop:10,
-        fontSize:20,
-    },
-    itemContent:{
-        marginTop:5,
-        fontSize:14,
-    },
-    icons:{
-        width:20,
-        height:20,
-        marginTop:5,
-    },
-    time:{
-        marginTop:5,
-        marginLeft:5,
-    },
-    itemFooter:{
-        flexDirection: 'row'
-    },
-    red:{
-         color:"red",
-         fontSize:20,
-         marginTop:5,
-         marginLeft:115,    
+button:{
+    width:20,
+    height:20,
+    marginTop:12,
+    marginLeft:110,
 },
-hrBottom:{
-    borderBottomColor:'grey',
-    borderBottomWidth:1,
-    width:420,
-    marginBottom:30,
-   },
+timeline:{
+     marginTop:10,
+     marginLeft:10,
+     fontSize:16,
+},
+itemPost:{
+flexDirection:'row',
+},
+timeDetail:{
+    marginLeft:10,
+    fontSize:13,
+},
+gach2:{
+borderBottomWidth:1,
+borderColor:"grey"
+},
+titletitle:{
+    color:"grey",
+    marginLeft:10,
+},
+job:{
+    marginBottom:10,
+    marginLeft:10,
+},
+titletitle1:{
+    color:"grey",
+    marginLeft:10,
+},
+titletitle2:{
+    color:"grey",
+    marginLeft:30,
+},
+titletitle3:{
+    color:"grey",
+    marginLeft:30,
+},
+na1:{
+marginLeft:10,
+},
+na2:{
+    marginLeft:120,
+    },
+    na3:{
+        marginLeft:75,
+        },
+        descriptionTitle:{
+            color:'grey',
+            marginLeft:10,
+            marginTop:10,
+        },
+        description:{
+            marginLeft:10,
+            marginRight:10,
+
+        },
+        payrollTitle:{
+            color:'grey',
+            marginLeft:10,
+            marginTop:10,
+            marginRight:10,
+        },
+        payroll:{
+            marginLeft:10,
+            marginRight:10,
+
+        },
+        itemPost2:{
+flexDirection:'row',
+justifyContent:'center',
+alignItems:'center',
+        },
+        buttonone:{
+            backgroundColor:'red',
+            width:130,
+            height:40,
+            borderRadius:5,
+            justifyContent:'center',
+            alignItems:'center',
+            marginRight:10,
+            marginBottom:20,
+            marginTop:10,
+        },
+        buttontwo:{
+            backgroundColor:'white',
+            borderBottomWidth:1,
+            borderLeftWidth:1,
+            borderRightWidth:1,
+            borderTopWidth:1,
+            borderRadius:5,
+            borderColor:'grey',
+            justifyContent:'center',
+            alignItems:'center',
+            width:130,
+            height:40,
+            color:'grey',
+            marginBottom:20,
+            marginTop:10,
+        }
 });
 export default styles;
